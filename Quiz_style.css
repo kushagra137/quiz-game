@@ -1,0 +1,137 @@
+body{
+font-size: 20px;
+font-family: Georgia, serif;
+}
+#container{
+background-color: #000000;
+width: 700px;
+height: 200px;
+perspective: 900px;
+display: inline-block;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
+#start{
+font-size: 1.5em;
+font-weight: bolder;
+text-align: center;
+cursor: pointer;
+position: fixed;
+top: 50%;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+color : red;
+}
+#question{
+width:550px;
+height : 135px;
+position: absolute;
+right: 0;
+top:40px;
+}
+#question p{
+margin : auto;;
+padding : 15px;
+font-size: 1.25em;
+color: red;
+}
+#choices{
+width : 500px;
+position: absolute;
+right : 0;
+top : 135px;
+padding : 10px
+}
+.choice{
+display: inline-block;
+width : 145px;
+text-align: center;
+border : 1px solid white;
+border-radius: 5px;
+cursor: pointer;
+padding : 5px;
+color: red;
+}
+.choice:hover{
+border : 2px solid white;
+font-weight: bold;
+}
+#timer{
+position: absolute;
+height : 200px;
+width : 300px;
+bottom : 200px;
+text-align: center;
+left: 6%
+}
+#counter{
+font-size: 3em;
+color: red;
+}
+#btimeGauge{
+width : 200px;
+height : 10px;
+border-radius: 10px;
+background-color: white;
+margin-left : 25px;
+}
+#timeGauge{
+height : 10px;
+border-radius: 10px;
+background-color: mediumseagreen;
+margin-top : -10px;
+margin-left : 25px;
+}
+#progress{
+width : 550px;
+position: absolute;
+bottom : 0px;
+right : 0px;
+padding:5px;
+text-align: right;
+}
+.prog{
+width : 25px;
+height : 25px;
+border: 1px solid #ffffff;
+display: inline-block;
+border-radius: 50%;
+margin-left : 5px;
+margin-right : 5px;
+}
+#scoreContainer{
+background-color: #993366;
+box-shadow: 0px 5px 15px 0px;
+opacity: 1.0;
+width: 700px;
+height: 200px;
+perspective: 900px;
+display: inline-block;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
+#scoreContainer h1{
+display: block;
+width : 59px;
+height :59px;
+font-size: 1.5em;
+font-weight: bold;
+text-align: center;
+color: red;
+position: fixed;
+top: 45%;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
